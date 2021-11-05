@@ -1,4 +1,10 @@
 #!/bin/bash
+#Programm: Fischer_Fabian_Vorbereitungen_FileDiff.sh
+# Aufruf: Fischer_Fabian_Vorbereitungen_FileDiff.sh [File] [File]
+# Es werden Dateien vergleichen und die Anzahl unterschiede werden am schluss ausgegeben
+# Autor: Fabian Fischer
+# Version: 1
+# Datum: 02.11.2021
 #es wird geprüft ob das erste File existiert
 if [[ -f $1 ]]
 then
